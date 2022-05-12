@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .despedida {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    text-decoration: gray;
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+  }
+  
