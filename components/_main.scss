@@ -35,12 +35,12 @@
   }
   
   .textoprincipal {
+    text-align: flex;
     display: flex;
     margin-top: 20px;
     margin-left: 20px;
     text-decoration: $bgcolor2;
     font-family: "Open Sans", sans-serif;
-    align-items: center;
   }
   
   .fotos {
@@ -124,12 +124,7 @@
   }
   
   .textoprincipalhithere {
-    display: flex;
-    margin-top: 20px;
-    margin-left: 20px;
-    text-decoration: $bgcolor2;
-    font-family: "Open Sans", sans-serif;
-    align-items: center;
+   @extend .textoprincipal ;
     margin-top: 150px;
   }
   
@@ -149,12 +144,7 @@
   }
   
   .textoprincipalaboutus {
-    display: flex;
-    margin-top: 20px;
-    margin-left: 20px;
-    text-decoration: $bgcolor2;
-    font-family: "Open Sans", sans-serif;
-    align-items: center;
+   @extend .textoprincipal;
     margin-top: 150px;
   }
   
@@ -173,12 +163,7 @@ h4 {
   }
   
   .textoprincipalcontactus {
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 20px;
-    text-decoration: $bgcolor2;
-    font-family: "Open Sans", sans-serif;
-    align-items: center;
+    @extend .textoprincipal;
     margin-top: 150px;
   }
   .formregister{
